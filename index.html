@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yogesh Gawade | Software Engineer: Backend, Full Stack, AWS</title>
+    <meta
+      name="description"
+      content="Software engineer building backend systems, cloud infrastructure, and full-stack applications with Java, Spring Boot, React, and AWS."
+    />
+    <meta name="theme-color" content="#0f151b" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Yogesh Gawade | Software Engineer" />
+    <meta
+      property="og:description"
+      content="Backend systems, cloud infrastructure, and full-stack applications with Java, Spring Boot, React, and AWS."
+    />
+    <!-- TODO: add og:url and og:image after deployment -->
+    <meta name="twitter:card" content="summary" />
+
+    <script>
+      // Set theme before first paint to avoid a flash. Dark is the default.
+      (function () {
+        var d = document.documentElement;
+        var t = 'dark';
+        d.classList.add('js');
+        try { t = localStorage.getItem('theme') || 'dark'; } catch (e) {}
+        d.dataset.theme = t;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
