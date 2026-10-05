@@ -3,12 +3,12 @@ import type { Principle, Project, Role, SkillGroup } from '../types';
 /* ------------------------------------------------------------------ */
 /* Profile: replace every placeholder value before publishing.         */
 /* ------------------------------------------------------------------ */
-export const siteTitle = 'Yogesh Gawade | Software Engineer: Backend, Full Stack, AWS';
+export const siteTitle = 'Yogesh Gawade | Software Engineer: Full Stack Dev';
 
 export const profile = {
   name: 'Yogesh Gawade',
   title: 'Software Engineer',
-  focus: 'Backend • Full Stack • AWS',
+  focus: 'Full Stack Development | Backend Systems | Cloud Infrastructure',
   intro:
     'Software engineer building backend systems, cloud infrastructure, and full-stack applications with Java, Spring Boot, React, and AWS.',
   email: 'your.email@example.com', // TODO: replace
