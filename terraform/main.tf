@@ -71,7 +71,7 @@ resource "aws_iam_role" "github_actions" {
           }
 
           StringLike = {
-            "token.actions.githubusercontent.com:sub" = "repo:yogeshgawade/portfolio:ref:refs/heads/main"
+            "token.actions.githubusercontent.com:sub" = "repo:yogeshgawade@28365859/portfolio@1405688100:ref:refs/heads/main"
           }
         }
       }
